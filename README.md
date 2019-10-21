@@ -1,3 +1,5 @@
+# Pivot Tool for Maya
+
 ![Intro](http://freeshinythings.s3.amazonaws.com/pivots/intro_image.png)
 
 The Maya Pivot Tool is a UV plotter and texture generator which collapses an input hierarchy into a texture which can be read from an Unreal shader. This project aims to be compatible with the 'Pivot Painter 2' toolset which is included in Unreal, but it sadly limited to 3DS Max only (For more information, see here: [Pivot Painter 2](https://docs.unrealengine.com/en-US/Engine/Content/Tools/PivotPainter/PivotPainter2/index.html).) In addition to this, the Pivot Tool also adds support for exporting skinning data to textures; this means you can apply joint-based animation in a vertex shader while treating your content as a static mesh.
