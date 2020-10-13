@@ -29,7 +29,8 @@ public class Install
 		M2016,
 		M2017,
 		M2018,
-		M2019
+		M2019,
+		M2020
 	}
 
 	static readonly Dictionary<MayaInstall, string> VersionToPathName = new Dictionary<MayaInstall, string>()
@@ -41,6 +42,7 @@ public class Install
 		{ MayaInstall.M2017, "2017" },
 		{ MayaInstall.M2018, "2018" },
 		{ MayaInstall.M2019, "2019" },
+		{ MayaInstall.M2020, "2020" },
 	};
 
 	// JB: Add install sources here, add extra folders for each version
@@ -48,6 +50,7 @@ public class Install
 	{
 		{ MayaInstall.M2018, "." },
 		{ MayaInstall.M2019, "." },
+		{ MayaInstall.M2020, "." },
 	};
 
 	/// <summary>
